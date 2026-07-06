@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Little Grass Shack · Hawaïaanse BBQ · Ericeira",
+    "description": "Aloha! Little Grass Shack is een Hawaïaanse BBQ langs de weg die binnenkort opent in Ribamar, Ericeira. Langzaam gerookte eilandsmaken aan zee."
+  },
+  "hero": {
+    "badge": "Binnenkort",
+    "title": "Little Grass Shack",
+    "tagline": "Hawaïaanse BBQ aan zee",
+    "subtitle": "Een klein hutje langs de weg met langzaam gerookte eilandsmaken, aloha-sfeer en een ijskoude vibe. Stop even, schop je slippers uit en blijf een tijdje.",
+    "location": "Ribamar · Ericeira, Portugal",
+    "cta": "Neem contact op"
+  },
+  "countdown": {
+    "title": "Grote opening over",
+    "subtitle": "De grill warmt op. Hier is het aftellen tot je eerste bord.",
+    "days": "Dagen",
+    "hours": "Uren",
+    "minutes": "Minuten",
+    "seconds": "Seconden",
+    "openTitle": "We zijn open!",
+    "openSubtitle": "Het hutje draait op volle toeren en de borden zijn warm. Kom aloha zeggen."
+  },
+  "about": {
+    "title": "Aloha vanaf de weg",
+    "body": "Denk aan gerookt kalua-varken, huli-huli-kip, verse ananas en de zilte Atlantische bries. Little Grass Shack brengt een vleugje van de eilanden naar de surfkust van Ericeira — eerlijk eilandeten, langzaam gegaard en geserveerd met een glimlach."
+  },
+  "location": {
+    "title": "Vind het hutje",
+    "addressLabel": "Waar",
+    "address": "Estrada de Ribamar, Ribamar\n2655 Ericeira, Portugal",
+    "hoursLabel": "Openingstijden",
+    "hours": "Binnenkort open — kom terug voor onze tijden",
+    "directions": "Route"
+  },
+  "contact": {
+    "title": "Zeg aloha",
+    "subtitle": "Vragen, catering of gewoon als eerste in de rij op de openingsdag? Stuur ons een bericht.",
+    "phoneLabel": "Bel ons",
+    "emailLabel": "E-mail",
+    "followLabel": "Volg ons",
+    "form": {
+      "name": "Naam",
+      "namePlaceholder": "Je naam",
+      "email": "E-mail",
+      "emailPlaceholder": "jij@voorbeeld.com",
+      "message": "Bericht",
+      "messagePlaceholder": "Vertel ons wat je bezighoudt…",
+      "submit": "Bericht versturen",
+      "sending": "Versturen…",
+      "success": "Mahalo! Je bericht is onderweg. We nemen snel contact op.",
+      "error": "Er ging iets mis. Probeer het opnieuw.",
+      "invalid": "Vul je naam, een geldig e-mailadres en een bericht in."
+    }
+  },
+  "footer": {
+    "tagline": "Hawaïaanse BBQ · Ribamar, Ericeira",
+    "rights": "Alle rechten voorbehouden.",
+    "madeWith": "Gemaakt met aloha"
+  },
+  "language": {
+    "label": "Taal"
+  }
+}

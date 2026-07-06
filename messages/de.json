@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Little Grass Shack · Hawaiianisches BBQ · Ericeira",
+    "description": "Aloha! Little Grass Shack ist ein hawaiianisches BBQ am Straßenrand, das bald in Ribamar, Ericeira eröffnet. Langsam geräucherte Inselaromen am Meer."
+  },
+  "hero": {
+    "badge": "Demnächst",
+    "title": "Little Grass Shack",
+    "tagline": "Hawaiianisches BBQ am Meer",
+    "subtitle": "Eine kleine Hütte am Straßenrand mit langsam geräucherten Inselaromen, Aloha-Spirit und einer eiskalten Vibe. Halt an, streif die Flip-Flops ab und bleib eine Weile.",
+    "location": "Ribamar · Ericeira, Portugal",
+    "cta": "Kontakt aufnehmen"
+  },
+  "countdown": {
+    "title": "Große Eröffnung in",
+    "subtitle": "Der Grill heizt sich auf. Hier ist der Countdown bis zu deinem ersten Teller.",
+    "days": "Tage",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "seconds": "Sekunden",
+    "openTitle": "Wir haben geöffnet!",
+    "openSubtitle": "Die Hütte läuft auf Hochtouren und die Teller sind heiß. Komm vorbei und sag aloha."
+  },
+  "about": {
+    "title": "Aloha vom Straßenrand",
+    "body": "Denk an geräuchertes Kalua-Schwein, Huli-Huli-Hähnchen, frische Ananas und die salzige Atlantikbrise. Little Grass Shack bringt einen Geschmack der Inseln an die Surfküste von Ericeira — ehrliches Inselessen, langsam gegart und mit einem Lächeln serviert."
+  },
+  "location": {
+    "title": "Finde die Hütte",
+    "addressLabel": "Wo",
+    "address": "Estrada de Ribamar, Ribamar\n2655 Ericeira, Portugal",
+    "hoursLabel": "Öffnungszeiten",
+    "hours": "Eröffnung in Kürze — schau bald wieder für unsere Zeiten vorbei",
+    "directions": "Route planen"
+  },
+  "contact": {
+    "title": "Sag aloha",
+    "subtitle": "Fragen, Catering oder einfach am Eröffnungstag ganz vorne stehen? Schreib uns.",
+    "phoneLabel": "Ruf uns an",
+    "emailLabel": "E-Mail",
+    "followLabel": "Folge uns",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Dein Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@beispiel.com",
+      "message": "Nachricht",
+      "messagePlaceholder": "Sag uns, was dir auf dem Herzen liegt…",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet…",
+      "success": "Mahalo! Deine Nachricht ist unterwegs. Wir melden uns bald.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "invalid": "Bitte gib deinen Namen, eine gültige E-Mail und eine Nachricht ein."
+    }
+  },
+  "footer": {
+    "tagline": "Hawaiianisches BBQ · Ribamar, Ericeira",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeWith": "Mit aloha gemacht"
+  },
+  "language": {
+    "label": "Sprache"
+  }
+}

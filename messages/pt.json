@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Little Grass Shack · Churrasco Havaiano · Ericeira",
+    "description": "Aloha! O Little Grass Shack é um churrasco havaiano à beira da estrada que abre em breve em Ribamar, Ericeira. Sabores das ilhas fumados lentamente junto ao mar."
+  },
+  "hero": {
+    "badge": "Brevemente",
+    "title": "Little Grass Shack",
+    "tagline": "Churrasco havaiano à beira-mar",
+    "subtitle": "Uma pequena cabana à beira da estrada com sabores das ilhas fumados devagar, espírito aloha e uma vibe fresquinha. Encoste, descalce os chinelos e fique um bocadinho.",
+    "location": "Ribamar · Ericeira, Portugal",
+    "cta": "Fale connosco"
+  },
+  "countdown": {
+    "title": "Grande abertura em",
+    "subtitle": "A grelha está a aquecer. Aqui fica a contagem para o seu primeiro prato.",
+    "days": "Dias",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "openTitle": "Estamos abertos!",
+    "openSubtitle": "A cabana está a todo o gás e os pratos estão quentinhos. Venha dizer aloha."
+  },
+  "about": {
+    "title": "Aloha à beira da estrada",
+    "body": "Imagine porco kalua fumado, frango huli-huli, ananás fresco e a brisa salgada do Atlântico. O Little Grass Shack traz um sabor das ilhas à costa de surf da Ericeira — comida honesta das ilhas, cozinhada devagar e servida com um sorriso."
+  },
+  "location": {
+    "title": "Encontre a cabana",
+    "addressLabel": "Onde",
+    "address": "Estrada de Ribamar, Ribamar\n2655 Ericeira, Portugal",
+    "hoursLabel": "Horário",
+    "hours": "Abrimos em breve — volte para ver os nossos horários",
+    "directions": "Como chegar"
+  },
+  "contact": {
+    "title": "Diga aloha",
+    "subtitle": "Dúvidas, catering ou só quer ser o primeiro da fila no dia de abertura? Escreva-nos.",
+    "phoneLabel": "Ligue-nos",
+    "emailLabel": "Email",
+    "followLabel": "Siga-nos",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome",
+      "email": "Email",
+      "emailPlaceholder": "voce@exemplo.com",
+      "message": "Mensagem",
+      "messagePlaceholder": "Diga-nos o que tem em mente…",
+      "submit": "Enviar mensagem",
+      "sending": "A enviar…",
+      "success": "Mahalo! A sua mensagem está a caminho. Entraremos em contacto em breve.",
+      "error": "Algo correu mal. Por favor, tente novamente.",
+      "invalid": "Por favor, preencha o nome, um email válido e uma mensagem."
+    }
+  },
+  "footer": {
+    "tagline": "Churrasco Havaiano · Ribamar, Ericeira",
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com aloha"
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}

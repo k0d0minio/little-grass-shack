@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Little Grass Shack · Hawaiian BBQ · Ericeira",
+    "description": "Aloha! Little Grass Shack is a roadside Hawaiian BBQ joint coming soon to Ribamar, Ericeira. Slow-smoked island flavours by the sea."
+  },
+  "hero": {
+    "badge": "Coming Soon",
+    "title": "Little Grass Shack",
+    "tagline": "Hawaiian BBQ by the sea",
+    "subtitle": "A little roadside shack serving up slow-smoked island flavours, aloha spirit and ice-cold vibes. Pull over, kick off your slippers and stay a while.",
+    "location": "Ribamar · Ericeira, Portugal",
+    "cta": "Get in touch"
+  },
+  "countdown": {
+    "title": "Grand opening in",
+    "subtitle": "The grill is warming up. Here's the countdown to your first plate.",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "openTitle": "We're open!",
+    "openSubtitle": "The shack is fired up and the plates are hot. Come say aloha."
+  },
+  "about": {
+    "title": "Aloha from the roadside",
+    "body": "Think smoky kalua pork, huli-huli chicken, fresh pineapple and the salty Atlantic breeze. Little Grass Shack brings a taste of the islands to the surf coast of Ericeira — honest island food, cooked low and slow, served with a smile."
+  },
+  "location": {
+    "title": "Find the shack",
+    "addressLabel": "Where",
+    "address": "Estrada de Ribamar, Ribamar\n2655 Ericeira, Portugal",
+    "hoursLabel": "Hours",
+    "hours": "Opening soon — check back for our times",
+    "directions": "Get directions"
+  },
+  "contact": {
+    "title": "Say aloha",
+    "subtitle": "Questions, catering or just want to be first in line on opening day? Drop us a line.",
+    "phoneLabel": "Call us",
+    "emailLabel": "Email",
+    "followLabel": "Follow along",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what's on your mind…",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Mahalo! Your message is on its way. We'll be in touch soon.",
+      "error": "Something went wrong. Please try again.",
+      "invalid": "Please fill in your name, a valid email and a message."
+    }
+  },
+  "footer": {
+    "tagline": "Hawaiian BBQ · Ribamar, Ericeira",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with aloha"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

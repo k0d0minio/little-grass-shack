@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), "Bebas Neue", sans-serif;
+  --font-script: var(--font-script), "Pacifico", cursive;
+
+  /* Brand — Hawaiian roadside BBQ */
+  --color-sand: var(--sand);
+  --color-sand-deep: var(--sand-deep);
+  --color-coral: var(--coral);
+  --color-coral-foreground: var(--coral-foreground);
+  --color-sunset: var(--sunset);
+  --color-ocean: var(--ocean);
+  --color-palm: var(--palm);
+  --color-charcoal: var(--charcoal);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Brand palette */
+  --sand: oklch(0.968 0.021 85);
+  --sand-deep: oklch(0.93 0.035 78);
+  --coral: oklch(0.635 0.188 33);
+  --coral-foreground: oklch(0.98 0.015 85);
+  --sunset: oklch(0.79 0.15 68);
+  --ocean: oklch(0.58 0.09 205);
+  --palm: oklch(0.52 0.1 152);
+  --charcoal: oklch(0.28 0.022 62);
+
+  /* shadcn tokens mapped to the brand */
+  --background: var(--sand);
+  --foreground: var(--charcoal);
+  --card: oklch(0.995 0.008 85);
+  --card-foreground: var(--charcoal);
+  --popover: oklch(0.995 0.008 85);
+  --popover-foreground: var(--charcoal);
+  --primary: var(--coral);
+  --primary-foreground: var(--coral-foreground);
+  --secondary: var(--ocean);
+  --secondary-foreground: oklch(0.98 0.015 85);
+  --muted: oklch(0.94 0.025 82);
+  --muted-foreground: oklch(0.48 0.03 60);
+  --accent: var(--sunset);
+  --accent-foreground: var(--charcoal);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.86 0.03 78);
+  --input: oklch(0.88 0.028 80);
+  --ring: var(--coral);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  html {
+    @apply font-body;
+  }
+}
+
+@layer utilities {
+  /* Black-on-white logo drops its white background onto light surfaces */
+  .logo-blend {
+    mix-blend-mode: multiply;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
