@@ -6,7 +6,7 @@ the conventions of the code, the names of things. Build and the lanes read it.
 Keep it short. A rule that is true for all repos belongs in the blueprint, not here.
 
 - Stack: one Next.js 16 app (App Router, TypeScript) with its source in `src/` (alias
-  `@/*`). Tailwind CSS v4, shadcn/ui, Motion and `next-intl`. pnpm, with `pnpm-lock.yaml`.
+  `@/*`). Tailwind CSS v4, shadcn/ui, Motion and `next-intl`. pnpm 10 (`packageManager` in `package.json`), with `pnpm-lock.yaml`.
   Node from `.nvmrc`.
 - This Next.js has breaking changes against older versions. Read the guide in
   `node_modules/next/dist/docs/` before you write code (`AGENTS.md`).
