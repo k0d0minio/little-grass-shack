@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 
@@ -11,8 +11,17 @@ type TimeLeft = {
   seconds: number;
 };
 
-function getTimeLeft(target: number): TimeLeft | null {
-  const diff = target - Date.now();
+// The clock is an external store that changes once a second. The snapshot is whole
+// seconds, so it stays the same between two ticks.
+function subscribeToClock(onTick: () => void) {
+  const id = setInterval(onTick, 1000);
+  return () => clearInterval(id);
+}
+const getClockSeconds = () => Math.floor(Date.now() / 1000);
+const getServerClockSeconds = () => null;
+
+function getTimeLeft(target: number, now: number): TimeLeft | null {
+  const diff = target - now;
   if (diff <= 0) return null;
   const seconds = Math.floor(diff / 1000);
   return {
@@ -27,16 +36,15 @@ export function Countdown({ openDate }: { openDate: string }) {
   const t = useTranslations("countdown");
   const target = new Date(openDate).getTime();
 
-  // null until mounted to avoid SSR/client hydration mismatch on time values.
-  const [timeLeft, setTimeLeft] = useState<TimeLeft | null | undefined>(
-    undefined,
+  // The server and the hydration render have no clock (null), so the time values
+  // cannot cause a hydration mismatch.
+  const nowSeconds = useSyncExternalStore(
+    subscribeToClock,
+    getClockSeconds,
+    getServerClockSeconds,
   );
-
-  useEffect(() => {
-    setTimeLeft(getTimeLeft(target));
-    const id = setInterval(() => setTimeLeft(getTimeLeft(target)), 1000);
-    return () => clearInterval(id);
-  }, [target]);
+  const timeLeft =
+    nowSeconds === null ? undefined : getTimeLeft(target, nowSeconds * 1000);
 
   if (timeLeft === undefined) {
     // Placeholder to reserve layout before the client clock kicks in.
