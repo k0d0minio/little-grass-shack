@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // BAXTER blueprint: template-owned, not app code.
+    ".icm/**",
+    ".claude/**",
   ]),
 ]);
 
